@@ -37,7 +37,7 @@ public class Exercicio02 {
 		
 		System.out.println("\nNúmeros pares digitados: ");
 		for(int i=0;i<numero.length;i++) {
-			if(numero[i]%2==0 && i<numero.length) {
+			if(numero[i]%2==0) {
 				System.out.println(numero[i]);
 			} 
 		}
@@ -47,7 +47,7 @@ public class Exercicio02 {
 		System.out.println("\nNúmeros ímpares digitados: ");
 		for(int i=0;i<numero.length;i++) {
 			
-			if(numero[i]%2==1 && i<numero.length) {
+			if(numero[i]%2==1) {
 				System.out.println(numero[i]);
 			} 
 		}
