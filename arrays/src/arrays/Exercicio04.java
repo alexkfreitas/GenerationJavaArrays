@@ -97,7 +97,7 @@ public class Exercicio04 {
 				} else {
 					coluna=op;
 					System.out.println("\nValor atual na posição ["+linha+"]["+coluna+"] da primeira matriz = "+matriz1[linha][coluna]);
-					matriz1[linha][coluna]+=a;
+					matriz1[linha][coluna]=a;
 					System.out.println("Valor da posição ["+linha+"]["+coluna+"] após adição da constante "
 							+ "na primeira matriz = "+matriz1[linha][coluna]);
 				}
@@ -124,7 +124,7 @@ public class Exercicio04 {
 					System.out.println("\nEssa coluna não existe! Tente novamente!");
 				} else {
 					System.out.println("Valor atual na posição ["+linha+"]["+coluna+"] da segunda matriz = "+matriz2[linha][coluna]);
-					matriz2[linha][coluna]+=a;
+					matriz2[linha][coluna]=a;
 					System.out.println("Valor da posição ["+linha+"]["+coluna+"] após adição da constante "
 							+ "na segunda matriz = "+matriz2[linha][coluna]);
 				}
@@ -138,7 +138,7 @@ public class Exercicio04 {
 			for(int i=0;i<matriz1.length;i++) {
 				for(int j=0;j<matriz1[0].length;j++) {
 					
-					System.out.println("\nPosição ["+i+"]["+j+"] = "+matriz1[i][j]);
+					System.out.println("Posição ["+i+"]["+j+"] = "+matriz1[i][j]);
 					
 				}
 			}
@@ -173,6 +173,9 @@ public class Exercicio04 {
 			
 			break;
 			
+		case 5:
+			System.out.println("Encerrando execução do programa... ");
+			break;
 			default:
 				
 				System.out.println("\nOpção inválida! Tente novamente!");

@@ -24,6 +24,7 @@ public class Exercicio03 {
 			}
 			
 			
+			
 		}
 		
 		teclado.close();
