@@ -14,8 +14,6 @@ public class Exercicio02 {
 	public static void main(String[] args) {
 		
 		int numero[] = new int[6];
-//		int pares[] = new int[6];
-//		int impares[] = new int[6];
 		int somapar=0, quantImpar=0;
 		
 		Scanner teclado = new Scanner(System.in);
