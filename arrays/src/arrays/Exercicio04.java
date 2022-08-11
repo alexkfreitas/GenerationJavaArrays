@@ -123,6 +123,7 @@ public class Exercicio04 {
 				if(op!=0 && op!=1) {
 					System.out.println("\nEssa coluna não existe! Tente novamente!");
 				} else {
+					coluna=op;
 					System.out.println("Valor atual na posição ["+linha+"]["+coluna+"] da segunda matriz = "+matriz2[linha][coluna]);
 					matriz2[linha][coluna]=a;
 					System.out.println("Valor da posição ["+linha+"]["+coluna+"] após adição da constante "
